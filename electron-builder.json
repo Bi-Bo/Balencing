@@ -1,0 +1,11 @@
+{
+  "appId": "com.electron.rotate.monitor",
+  "productName": "Rotate Monitor",
+  "directories": {
+    "app": "build"
+  },
+  "mac": {
+      "category": "Tools"
+  },
+  "nodeVersion": "current"
+}

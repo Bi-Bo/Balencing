@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="
+    default-src;
+    script-src 'self';
+    style-src * 'unsafe-inline' blob: data:;
+    font-src * blob: data:;
+    media-src * blob: data:;
+    img-src * blob: data:;
+">
+<title>Monitor</title>
+</head>
+<body>
+<div id="root"></div>
+<script src="index.js"></script>
+</body>
+</html>

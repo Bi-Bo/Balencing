@@ -1,0 +1,12 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "./node_modules/.bin/electron-rebuild"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "serialport": "^7.1.5"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "scripts": {
+    "all": "./node_modules/.bin/gulp all",
+    "app": "./node_modules/.bin/gulp app",
+    "web": "./node_modules/.bin/gulp webpack",
+    "dev": "./node_modules/.bin/gulp dev",
+    "install": "./node_modules/.bin/electron-rebuild",
+    "dist": "rm -rf ./dist; ./node_modules/.bin/electron-builder --config ./electron-builder.json"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.15.1",
+    "color": "^3.1.1",
+    "d3": "^5.9.2",
+    "d3-regression": "^1.2.3",
+    "fs": "0.0.1-security",
+    "normalize": "^0.3.1",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-d3-library": "^1.1.8",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "serialport": "^7.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "electron": "^5.0.2",
+    "electron-builder": "^20.43.0",
+    "electron-rebuild": "^1.8.5",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-electron": "^0.1.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-run-command": "0.0.9",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.32.2",
+    "webpack-stream": "^5.2.1"
+  }
+}

@@ -1,0 +1,45 @@
+.base {
+    background: #fafafa;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    .leftPanel {
+        flex: 0 1 250px;
+        padding: 14px;
+        border-right: 1px solid #ccc;
+    }
+    .rightPanel {
+        flex: 1 1 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        .head {
+            flex: 0 1 40px;
+            padding: 0 20px;
+            line-height: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+        .main {
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: row nowrap;
+            .center {
+                flex: 1 1 auto;
+                height: 100%;
+                text-align: center;
+                overflow: scroll;
+            }
+            .right {
+                flex: 0 1 250px;
+                display: flex;
+                flex-flow: column nowrap;
+                .top {
+                    flex: 0 1 400px;
+                    padding: 0 20px;
+                }
+                .bottom {
+                    flex: 1 1 auto;
+                }
+            }
+        }
+    }
+}
