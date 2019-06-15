@@ -39,9 +39,14 @@ npm run all
 * Connect Arduino to Computer by USB, open the App in ./dist folder
 * Operate as following steps:
 ![Operate](Operate.png)
+* Then you can choose which signal source of axis from MPU6050 is the best one for your situation, maybe by add some weight to one side of the shaft
+* Find the zero angle, also the turning direction
+* Use the graph and report from right side to start your balencing ajustment. Good luck!
 
 ## Thanks
 I use lots of projects on GitHub and other information on web to finish this project, without those help, this project can never finished. Big thanks to all those intelligent people!
+
+Don't forget to give a *Star* if you like it.
 
 ## Lisence
 MIT
