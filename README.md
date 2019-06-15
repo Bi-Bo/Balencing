@@ -1,7 +1,7 @@
 # Balencing
 A tool to help you to resolve the dynamic balance problem.
 
-![Demo](Demo.mov)
+![Demo](Demo.gif)
 
 This is an open source project, you can use it as you want. Hope this project will help you.
 
