@@ -1,6 +1,8 @@
 # Balencing
 A tool to help you to resolve the dynamic balance problem.
 
+![Demo](Demo.png)
+
 This is an open source project, you can use it as you want. Hope this project will help you.
 
 ## Features
@@ -22,10 +24,21 @@ This is an open source project, you can use it as you want. Hope this project wi
 ## How to Use
 * You need an Arduino, a 3144 Hall-Effect sensor and a MPU6050 Six-Axis Gyro + Accelerometer module
 * Connect the hardware according to the diagram below:
-
-* Upload the C code to your Arduino board
-* Connect Arduino to Computer, open the App in ./dist folder
+![Diagram](Diagram.png)
+* Upload the C code in ./arduino to your Arduino board. The main.cpp is in ./arduino/src/, and I use platformio to makeup the project, you can use it according to your situation
+* run following command in the root dir of this project:
+```
+npm install
+npm dist
+```
+Or you can just run this command to bypass the next step:
+```
+npm install
+npm run all
+```
+* Connect Arduino to Computer by USB, open the App in ./dist folder
 * Operate as following steps:
+![Operate](Operate.png)
 
 ## Thanks
 I use lots of projects on GitHub and other information on web to finish this project, without those help, this project can never finished. Big thanks to all those intelligent people!
