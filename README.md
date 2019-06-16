@@ -24,7 +24,9 @@ This is an open source project, you can use it as you want. Hope this project wi
 ## How to Use
 * You need an Arduino, a 3144 Hall-Effect sensor and a MPU6050 Six-Axis Gyro + Accelerometer module
 * Connect the hardware according to the diagram below:
+
 ![Diagram](Diagram.png)
+
 * Upload the C code in ./arduino to your Arduino board. The main.cpp is in ./arduino/src/, and I use platformio to makeup the project, you can use it according to your situation
 * run following command in the root dir of this project:
 ```
@@ -38,7 +40,9 @@ npm run all
 ```
 * Connect Arduino to Computer by USB, open the App in ./dist folder
 * Operate as following steps:
+
 ![Operate](Operate.png)
+
 * Then you can choose which signal source of axis from MPU6050 is the best one for your situation, maybe by add some weight to one side of the shaft
 * Find the zero angle, also the turning direction
 * Use the graph and report from right side to start your balencing ajustment. Good luck!
