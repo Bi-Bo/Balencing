@@ -1,5 +1,5 @@
 # Balencing
-A tool to help you to resolve the dynamic balance problem.
+A tool that can help you to resolve the dynamic balance problem.
 
 ![Demo](Demo.gif)
 
